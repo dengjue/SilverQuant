@@ -28,6 +28,6 @@ acc = StockAccount(account)
 # 订阅账户
 res = xt_trader.subscribe(acc)
 if res == 0:
-    print('订阅成功')
+    print('订阅成功!')
 else:
-    print('订阅失败')
+    print('订阅失败!')
